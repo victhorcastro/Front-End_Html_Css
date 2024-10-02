@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A propriedade display</title>
+    <style>
+        p {
+            background-color: #CCC;
+            border: thin blue solid;
+        }
+
+        a {
+            background-color: rgb(202, 184, 231);
+            border-width: thick;
+            border-color: red;
+            border-style: dotted;
+        }
+
+        footer {
+            background-color: beige;
+        }
+
+        button {
+            background-color: greenyellow;
+            border-bottom: 4px solid black;
+        }
+        .professores {
+            display: block;
+            width: 150px;
+            height: 150px;
+
+        }
+        .engenharia {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            border-radius: 10px;
+
+            
+        }
+        .farmacia {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            border-radius: 20px 40px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <article id="cursos">
+        <p class="engenharia">Engenharia</p>
+        <p class="farmacia">Farmácia</p>
+        <a class="professores" href="#">Veja a lista de professores aqui</a>
+        <a class="Contato" href="#">Entre em contato</a>
+        <footer class="rodape">Portal de cursos</footer>
+        <br>
+        <button class="botao">Clique aqui para falar conosco</button>
+        <p>Todos os direitos reservados</p>
+        <p>Todos os direitos reservados</p>
+    </article>
+</body>
+
+</html>

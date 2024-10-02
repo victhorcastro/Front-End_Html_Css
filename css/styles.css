@@ -1,0 +1,49 @@
+h1#titulo {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    p#desc {
+        color: blue;
+    }
+    
+    strong {
+        color: red;
+    }
+    
+    .promocao {
+        text-align: center;
+        background-color: aquamarine;
+    }
+    
+    h1.promocao {
+        color: white;
+        font-size: 2em;
+    }
+    
+    .classe-nova {
+        color: yellow;
+        font-size: 1.5em;
+    }
+    
+    p.final-pagina#rodape {
+        color: black;
+        text-align: center;
+    }
+    
+    .curso,
+    .novo-curso {
+        background-color: black;
+    }
+    
+    .curso-novo {
+        color: red;
+    }
+    
+    .curso,
+    .curso-novo,
+    #contato {
+        padding: 16px;
+        border: 2px solid darkblue;
+    }
+    

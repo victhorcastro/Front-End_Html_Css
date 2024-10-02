@@ -1,0 +1,19 @@
+/* Arquivo cascata_especificidades.css */
+#titulo {
+    color: palevioletred; /* Este deve prevalecer */
+}
+.descricao {
+    color: red;
+}
+p {
+    color: green;
+}
+.principal article {
+    background-color: lightgray;
+}
+main article {
+    background-color: lightblue;
+}
+main, article {
+    border: 1px solid black;
+}
